@@ -5,93 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ofertas</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 
-
 <body>
-    <header>
-        <nav>
-            <ul class="ul_nav">
-                <li><div class="logo_container"><a href="../index.html">
-                    <img class="logo"
-                        src="https://i.pinimg.com/564x/63/0b/19/630b19a1ca58ccfadc3e4bdd1f3bf12f.jpg" alt="Imagen del logo de la tienda">
-                    </div></a>
-                    </li>
-                <li class="li_nav"><a href="./productos.html">PRODUCTOS</a></li>
-                <li class="li_nav"><a href="./ofertas.html">OFERTAS</a></li>
-                <li class="li_nav"><a href="./acerca-de.html">ACERCA DE</a></li>
-                <li class="li_nav"><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html" id="Nav_logo">Chaos</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link" href="./productos.html">Productos</a>
+                <a class="nav-link" href="./ofertas.html">Ofertas</a>
+                <a class="nav-link" href="./acerca-de.html">Acerca De</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+                </div>
+            </div>
+            </div>
         </nav>
     </header>
-    
-    <section>
-        <main>
-            <h2>OFERTAS</h2>
 
-            <article>
-                <div class="img_container2">
-                    <img src="https://static.wixstatic.com/media/04ae9707cec14f62b797a64f1dd85baa.jpg/v1/fill/w_500,h_667,al_c,q_85,usm_0.66_1.00_0.01/04ae9707cec14f62b797a64f1dd85baa.webp"
-                        alt="Imagen de remera blanca, con estampado de la palabra Visionary">
+    <main class="container text-center">
+        <!-- <div class="row">
+            <div class="col-smi-12 col-xl-12">
+                <img src="https://i.pinimg.com/564x/69/8d/a5/698da546e1fb8b9a0f2c68381a0e64be.jpg" class="img-fluid" alt="">
+            </div>
+        </div> -->
+        <h2 class="h2 display-1">OFERTAS DE LA SEMANA</h2>
+        <section>
+            <article class="row">
+                <div class="col-sm-12 col-xl-4 list">
+                    <ul>
+                        <li><img src="https://static.wixstatic.com/media/04ae9707cec14f62b797a64f1dd85baa.jpg/v1/fill/w_500,h_667,al_c,q_85,usm_0.66_1.00_0.01/04ae9707cec14f62b797a64f1dd85baa.webp" class="img-fluid"
+                        alt="Imagen de remera blanca, con estampado de la palabra Visionary"></li>
+                        <li class= "list-unstyled text-white" id="main_li">Remera "Visionary"</li>
+                        <li class= "list-unstyled text-white" id="main_li"><s>$2000</s></li>
+                        <li class= "list-unstyled text-white" id="main_li"><em>$1800</em></li>
+                    </ul>
                 </div>
-                <ul>
-                    <li class="li_prop2">Remera "Visionary"</li>
-                    <li class="li_prop2">$2000</li>
-                </ul>
-            
 
-
-                <div class="img_container2">
-                    <img src="https://static.wixstatic.com/media/ea71bb_442f4114ad394a488ec7ba4c70ed1aaf~mv2_d_3664_4866_s_4_2.jpg/v1/fill/w_500,h_667,al_c,q_85,usm_0.66_1.00_0.01/ea71bb_442f4114ad394a488ec7ba4c70ed1aaf~mv2_d_3664_4866_s_4_2.webp"
-                        alt="Imagen de remera blanca, con estampado de un loro de color rosa y trazos lineales">
+                <div class="col-sm-12 col-xl-4">
+                    <ul>
+                        <li><img src="https://static.wixstatic.com/media/ea71bb_442f4114ad394a488ec7ba4c70ed1aaf~mv2_d_3664_4866_s_4_2.jpg/v1/fill/w_500,h_667,al_c,q_85,usm_0.66_1.00_0.01/ea71bb_442f4114ad394a488ec7ba4c70ed1aaf~mv2_d_3664_4866_s_4_2.webp" class="img-fluid"
+                        alt="Imagen de remera blanca, con estampado de un loro de color rosa y trazos lineales"></li>
+                        <li class= "list-unstyled text-white" id="main_li">Remera "Birdie"</li>
+                        <li class= "list-unstyled text-white" id="main_li"><s>$2000</s></li>
+                        <li class= "list-unstyled text-white" id="main_li"><em>$1500</em></li>
+                    </ul>
                 </div>
-                <ul>
-                    <li class="li_prop2">Remera "Birdie"</li>
-                    <li class="li_prop2">$2000</li>
-                </ul>
 
-
-
-                <div class="img_container2">
-                    <img src="https://static.wixstatic.com/media/ea71bb_a383b3f94a774903a67425ad368d161b~mv2_d_2776_3687_s_4_2.jpg/v1/fill/w_500,h_667,al_c,q_85,usm_0.66_1.00_0.01/ea71bb_a383b3f94a774903a67425ad368d161b~mv2_d_2776_3687_s_4_2.webp"
-                        alt="Imagen de remera tri-color, blanco, rosa y negro">
+                <div class="col-sm-12 col-xl-4">
+                    <ul>
+                        <li><img src="https://static.wixstatic.com/media/ea71bb_a383b3f94a774903a67425ad368d161b~mv2_d_2776_3687_s_4_2.jpg/v1/fill/w_500,h_667,al_c,q_85,usm_0.66_1.00_0.01/ea71bb_a383b3f94a774903a67425ad368d161b~mv2_d_2776_3687_s_4_2.webp" class="img-fluid"
+                        alt="Imagen de remera tri-color, blanco, rosa y negro"></li>
+                        <li class= "list-unstyled text-white" id="main_li">Remera "Tri-color"</li>
+                        <li class= "list-unstyled text-white" id="main_li"><s>$2500</s></li>
+                        <li class= "list-unstyled text-white" id="main_li"><em>$2000</em></li>
+                    </ul>
                 </div>
-                <ul class="ul_prop2">
-                    <li class="li_prop2">Remera "Tri-color"</li>
-                    <li class="li_prop2">$3000</li>
-                </ul>
-
             </article>
-        </main>
-    </section>
-    
-    <hr>
-
+        </section>
+    </main>
 
     <footer>
+        <div class= "container list-unstyled">
+            <div class="row">
+            <ul class="col-sm-12 col-xl-4">
+                <h3 class="h3">Contacto</h3>
+                        <li class="footer_li"><a href="">Formulario</a></li>
+                        <li class="footer_li"><a href="">Me arrepentí</a></li>
+                        <li class="footer_li"><a href="">Trabaja con nosotros</a></li>
 
-        <h3>Contacto</h3>
-        <ul class="ul_prop3">
-            <li><a href="">Formulario</a></li>
-            <li class="li_prop3"><a href="">Me arrepentí</a></li>
-            <li class="li_prop3"><a href="">Trabaja con nosotros</a></li>
-        </ul>
-
-        <h3>Ayuda</h3>
-        <ul>
-            <li class="li_prop3"><a href="">Preguntas frecuentes</a></li>
-            <li class="li_prop3"><a href="">Medios de pago</a></li>
-            <li class="li_prop3"><a href="">Problemas con mi compra</a></li>
-        </ul>
-
-        <h3>Legales</h3>
-        <ul>
-            <li class="li_prop3"><a href="">Politicas de privacidad</a></li>
-            <li class="li_prop3"><a href="">Terminos y condiciones</a></li>
-        </ul>
+            </ul>
+    
+            <ul class="col-sm-12 col-xl-4">
+                <h3>Ayuda</h3>
+                        <li class="footer_li"><a href="">Preguntas frecuentes</a></li>
+                        <li class="footer_li"><a href="">Medios de pago</a></li>
+                        <li class="footer_li"><a href="">Problemas con mi compra</a></li>
+            </ul>
+    
+            <ul class="col-sm-12 col-xl-4">
+                <h3>Legales</h3>
+                        <li class="footer_li"><a href="">Politicas de privacidad</a></li>
+                        <li class="footer_li"><a href="">Terminos y condiciones</a></li>
+            </ul>
+    
+            <ul class="col-sm-12 col-xl-4">
+                <h3>Redes</h3>
+                        <li class="footer_li"><a href="..." target="_blank">Instagram</a></li>
+                        <li class="footer_li"><a href=”...” target="_blank">Facebook</a></li>
+                        <li class="footer_li"><a href=”...” target="_blank">Tiktok</a></li>
+            </ul>
+        </div>
+    </div>
     </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
-
 </html>
