@@ -1,5 +1,36 @@
 @use 'variables';
-
+// GENERAL
 body{ 
-    background: variables.$color-background;
+    background: variables.$dark;
+}
+
+// MAIN
+
+.titulo {
+    font-size:variables.$fuente-xxl ;
+    color: variables.$dark;
+    margin-bottom: 100px;
+    background-color: variables.$salmon;
+
+}
+
+.main__container{
+    margin-bottom: 100px;
+    &__ul{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        list-style: none;
+        &__li{
+            font-size: variables.$fuente-grande;
+            color: variables.$salmon;
+            font-family: variables.$tipografia-general;
+        }
+    }
+}
+
+// FOOTER
+
+.container__footer{
+    background-color: variables.$salmon;
+
 }
