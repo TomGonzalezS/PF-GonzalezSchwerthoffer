@@ -1,52 +1,9 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+  background: #F2B4AE;
 }
-
-/* html {
-    font-size: 62.5%;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-} */
-
-a {
-    color: black;
-    text-decoration: none;
-    font-size: 1.2rem
-    ;
-}
-
 
 body {
-
-    background-color: black
+  background: #F2B4AE;
 }
 
-/* header */
-
-
-li {
-    font-size: 2rem;
-    list-style: none;
-}
-
-
-
-#main_li {
-    padding: 10px;
-    font-family: fantasy;
-    color: #f2b4aecc ;
-
-}
-
-
-h2 {
-    background-color: #F2B4AE;
-}
-
-/* footer */
-
-footer {
-    background-color: #F2D3D0;
-
-}
-
+/*# sourceMappingURL=estilos.css.map */

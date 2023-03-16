@@ -1,5 +1,4 @@
-@use './partials/variables';
-@use './partials/index';
+@use 'variables';
 
 body{ 
     background: variables.$color-background;
