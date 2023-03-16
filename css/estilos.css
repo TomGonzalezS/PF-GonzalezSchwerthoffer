@@ -1,3 +1,8 @@
+* {
+  margin: 0rem;
+  padding: 0rem;
+}
+
 body {
   background: #000000;
 }
@@ -25,6 +30,28 @@ body {
 
 .container__footer {
   background-color: #F2B4AE;
+}
+.container__footer__ul {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  list-style: none;
+}
+.container__footer__ul__li {
+  font-size: 1.2em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: arial, verdana, sans-serif;
+}
+.container__footer__ul__li__a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: #000000;
+}
+
+h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=estilos.css.map */

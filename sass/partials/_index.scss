@@ -1,5 +1,12 @@
 @use 'variables';
+
+
 // GENERAL
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
 body{ 
     background: variables.$dark;
 }
@@ -32,5 +39,28 @@ body{
 
 .container__footer{
     background-color: variables.$salmon;
+    &__ul{
+        padding-left: 2rem;
+        padding-right: 2rem;
+        list-style: none;
 
+        &__li{
+            font-size: variables.$fuente-pequena*1.5;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-family: variables.$tipografia-general;
+
+            &__a{
+                margin-top: 30px;
+                text-decoration: none;
+                color: variables.$dark;
+            }
+        }
+    }
+}
+
+h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
 }
