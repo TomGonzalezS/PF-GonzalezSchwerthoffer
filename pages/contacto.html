@@ -12,14 +12,14 @@
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     
-    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="../css/estilos.css">
 
 </head>
 
 <body>
-    <!-- Inicio del Header -->
+<!-- Inicio del Header -->
     <header class="sticky-top">
-        <!-- NAV -->
+<!-- NAV -->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html" id="Nav_logo">Chaos</a>
@@ -37,53 +37,90 @@
         </nav>
         <!-- NAV -->
     </header>
-<h2>CONTACTO</h2> 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, explicabo provident. Esse quos nisi delectus fugit officia reprehenderit ipsum, voluptatem doloribus culpa vel soluta. Odit mollitia tempora numquam deserunt sequi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla harum ipsa voluptatum, blanditiis laboriosam illo fugit tenetur dolorum illum, impedit libero, amet aperiam aut mollitia non esse quo recusandae inventore?</p> 
-<form action=""></form>
-
-<label for="name">Nombre:</label>
-<input type="text" name="name" id="name">
-<br>
-<br>
-<label for="email">Email:</label>
-<input type="email" name="email" id="email">
-<br>
-<br>
-<label for="number">Telefono:</label>
-<input type="number" name="number" id="number">
-<br>
-<br>
-<label for="mensaje">Mensaje:</label>
-<textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>    
-<br>
-<br>
-
-<input type="submit" value="Enviar">
+<!-- Fin del Header -->
+<!-- Inicio del Main -->
+    <main class="container">
+<!-- SECCION DE CONTACTO -->
+        <div class="row">
+            <div class="col-sm-6 col-xl-6">
+                <div class="container">
+                    <div>
+                    <h1 class="h1-lg h2-xs text-uppercase text-white">Contacto</h1>
+                    <p class="text-white">Hola! Somos Chaos.</p>
+                    <p class="text-white">Cualquier consulta que tengas, no dudes en escribirnos!</p>
+                    </div>
+                </div>
+            </div>
+                    <div class="col-sm-6 col-xl-6">
+                        <div>
+                            <form action="">
+                                <p>Nombre:</p>
+                                <input type="text" class="field"> <br/>
+                            
+                                <p>Correo electrónico:</p>
+                                <input type="text" class="field"> <br/>
+                            
+                                <p>Teléfono:</p>
+                                <input type="text" class="field"> <br/>
+                            
+                                <p>Mensaje:</p>
+                                <textarea class="field"></textarea> <br/>
+                            
+                                <input type="submit" class="btn btn-secondary" value="Enviar">
+                            
+                            </form>
+                        </div>
+                    </div>
+        </div>
     <hr>
+<!-- SECCION DE CONTACTO -->
+</main>
+<!-- Fin del Main -->
+<!-- Inicio del Footer -->
+<footer class="container__footer">
+    <div class= "container list-unstyled">
+        <div class="row">
+<!-- SECCION DE CONTACTO -->
+        <ul class="col-sm-12 col-xl-3 container__footer__ul">
+            <h3 class="h3-lg h4-xs">Contacto</h3>
+            <hr>
+                <li class="container__footer__ul__li"><a href="#" class="container__footer__ul__li__a">Formulario</a></li>
+                <li class="container__footer__ul__li"><a href="#" class="container__footer__ul__li__a">Me arrepentí</a></li>
+                <li class="container__footer__ul__li"><a href="#" class="container__footer__ul__li__a">Trabaja con nosotros</a></li>
 
-
-    <footer>
-
-        <h3>Contacto</h3>
-        <ul class="ul_prop3">
-            <li><a href="">Formulario</a></li>
-            <li class="li_prop3"><a href="">Me arrepentí</a></li>
-            <li class="li_prop3"><a href="">Trabaja con nosotros</a></li>
         </ul>
-
-        <h3>Ayuda</h3>
-        <ul>
-            <li class="li_prop3"><a href="">Preguntas frecuentes</a></li>
-            <li class="li_prop3"><a href="">Medios de pago</a></li>
-            <li class="li_prop3"><a href="">Problemas con mi compra</a></li>
+<!-- SECCION DE CONTACTO -->
+<!-- SECCION DE AYUDA -->
+        <ul class="col-sm-12 col-xl-3 container__footer__ul">
+            <h3 class="h3-lg h4-xs">Ayuda</h3>
+            <hr>
+                <li class="container__footer__ul__li"><a href="#" class="container__footer__ul__li__a">Preguntas frecuentes</a></li>
+                <li class="container__footer__ul__li"><a href="#" class="container__footer__ul__li__a">Medios de pago</a></li>
+                <li class="container__footer__ul__li"><a href="#" class="container__footer__ul__li__a">Problemas con mi compra</a></li>
         </ul>
-
-        <h3>Legales</h3>
-        <ul>
-            <li class="li_prop3"><a href="">Politicas de privacidad</a></li>
-            <li class="li_prop3"><a href="">Terminos y condiciones</a></li>
-        </ul>
-    </footer>
-
+<!-- SECCION DE AYUDA -->
+<!-- SECCION DE REDES -->
+            <ul class="col-sm-12 col-xl-3 container__footer__ul">
+                <h3 class="h3-lg h4-xs">Redes</h3>
+                <hr>
+                    <li class="container__footer__ul__li"><a href="#" target="_blank" class="container__footer__ul__li__a">Instagram</a></li>
+                    <li class="container__footer__ul__li"><a href=”#” target="_blank" class="container__footer__ul__li__a">Facebook</a></li>
+                    <li class="container__footer__ul__li"><a href=”#” target="_blank" class="container__footer__ul__li__a">Tiktok</a></li>
+            </ul>
+<!-- SECCION DE REDES -->
+<!-- SECCION DE LEGALES -->
+            <ul class="col-sm-12 col-xl-3 container__footer__ul">
+                <h3 class="h3-lg h4-xs">Legales</h3>
+                <hr>
+                    <li class="container__footer__ul__li"><a href="#" class="container__footer__ul__li__a">Politicas de privacidad</a></li>
+                    <li class="container__footer__ul__li"><a href="#" class="container__footer__ul__li__a">Terminos y condiciones</a></li>
+            </ul>
+<!-- SECCION DE LEGALES -->
+    </div>
+</div>
+</footer>
+<!-- Fin del Footer -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
+
 </html>

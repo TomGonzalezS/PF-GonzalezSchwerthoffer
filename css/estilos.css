@@ -54,4 +54,55 @@ h3 {
   font-weight: bold;
 }
 
+form {
+  background-color: #f7f7f7;
+  border-radius: 3px;
+  color: #000000;
+  font-size: 0.8em;
+  padding: 10px;
+  margin: 10px;
+}
+
+input, textarea {
+  border: 0;
+  outline: none;
+  width: 100%;
+  color: #808080;
+}
+
+.field {
+  border: solid 1px;
+  padding: 10px;
+}
+
+.field:focus {
+  border-color: #F2B4AE;
+}
+
+.btn {
+  border: solid 1px #f7f7f7;
+  background-color: #000000;
+  color: #f7f7f7;
+}
+
+h1 {
+  margin: 25px;
+  padding: 25px;
+}
+
+.subtitulo {
+  margin: 30px;
+  padding: 30px;
+}
+
+.text {
+  color: #f7f7f7;
+  margin: 20px;
+  padding: 10px;
+}
+
+strong {
+  color: #F2B4AE;
+}
+
 /*# sourceMappingURL=estilos.css.map */
