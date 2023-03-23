@@ -1,0 +1,40 @@
+// CONTACTO
+@use 'variables';
+
+// MAIN
+
+form{
+    background-color:variables.$light;
+    border-radius: 3px;
+    color:variables.$dark;
+    font-size:variables.$fuente-pequena;
+    padding: 10px;
+    margin: 10px;
+}
+
+input, textarea{
+    border: 0;
+    outline: none;
+    width: 100% ;
+    color:variables.$gray;
+}
+
+.field{
+    border: solid 1px;
+    padding: 10px;
+}
+
+.field:focus{
+    border-color:variables.$salmon;
+}
+
+.btn{
+    border: solid 1px variables.$light;
+    background-color: variables.$dark;
+    color: variables.$light;
+}
+
+h1{
+    margin: 25px;
+    padding: 25px;
+}
