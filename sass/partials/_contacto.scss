@@ -3,6 +3,10 @@
 
 // MAIN
 
+.container_margen{
+    margin: 3em;
+}
+
 form{
     background-color:variables.$light;
     border-radius: 3px;
@@ -22,10 +26,9 @@ input, textarea{
 .field{
     border: solid 1px;
     padding: 10px;
-}
-
-.field:focus{
+    :focus{
     border-color:variables.$salmon;
+    }
 }
 
 .btn{
@@ -33,6 +36,7 @@ input, textarea{
     background-color: variables.$dark;
     color: variables.$light;
 }
+
 
 h1{
     margin: 25px;
